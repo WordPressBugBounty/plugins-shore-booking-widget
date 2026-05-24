@@ -1,0 +1,256 @@
+# Spanish translation for Shore Booking Widget
+# Copyright (C) 2024 Shore GmbH
+# This file is distributed under the same license as the Shore Booking Widget package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shore Booking Widget 1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 00:00+0000\n"
+"PO-Revision-Date: 2024-11-21 00:00+0000\n"
+"Last-Translator: Shore GmbH\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Shore Booking Widget"
+msgstr "Widget de Reservas Shore"
+
+msgid "Shore Booking"
+msgstr "Reservas Shore"
+
+msgid "Shore Booking Settings"
+msgstr "Configuración de Reservas Shore"
+
+msgid "The easiest way to add booking functionality to your WordPress site."
+msgstr "La forma más fácil de añadir funcionalidad de reservas a tu sitio WordPress."
+
+msgid "Welcome to Shore Booking Widget!"
+msgstr "¡Bienvenido al Widget de Reservas Shore!"
+
+msgid "Configuration Token"
+msgstr "Token de Configuración"
+
+msgid "Enter your Shore configuration token."
+msgstr "Introduce tu token de configuración de Shore."
+
+msgid "Configuration"
+msgstr "Configuración"
+
+msgid "Configure your booking widget to match your brand"
+msgstr "Configura tu widget de reservas para que coincida con tu marca"
+
+msgid "Widget Language"
+msgstr "Idioma del Widget"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Choose the language for the booking widget."
+msgstr "Elige el idioma para el widget de reservas."
+
+msgid "Auto-detect from page language"
+msgstr "Detectar automáticamente del idioma de la página"
+
+msgid "English (en)"
+msgstr "Inglés (en)"
+
+msgid "German (de)"
+msgstr "Alemán (de)"
+
+msgid "French (fr)"
+msgstr "Francés (fr)"
+
+msgid "Spanish (es)"
+msgstr "Español (es)"
+
+msgid "Display Style"
+msgstr "Estilo de Visualización"
+
+msgid "Embedded Booking Page"
+msgstr "Página de Reservas Integrada"
+
+msgid "Standard Button"
+msgstr "Botón Estándar"
+
+msgid "Floating Button"
+msgstr "Botón Flotante"
+
+msgid "Button Customization"
+msgstr "Personalización del Botón"
+
+msgid "Button Text"
+msgstr "Texto del Botón"
+
+msgid "Book Now"
+msgstr "Reservar Ahora"
+
+msgid "Background Color"
+msgstr "Color de Fondo"
+
+msgid "Text Color"
+msgstr "Color del Texto"
+
+msgid "Embedded Preview"
+msgstr "Vista Previa Integrada"
+
+msgid "Floating Button Customization"
+msgstr "Personalización del Botón Flotante"
+
+msgid "Button Position"
+msgstr "Posición del Botón"
+
+msgid "Left"
+msgstr "Izquierda"
+
+msgid "Right"
+msgstr "Derecha"
+
+msgid "Ready to save your changes?"
+msgstr "¿Listo para guardar los cambios?"
+
+msgid "Your booking widget will update immediately"
+msgstr "Tu widget de reservas se actualizará inmediatamente"
+
+msgid "Save Settings"
+msgstr "Guardar Configuración"
+
+msgid "How to Use"
+msgstr "Cómo Usar"
+
+msgid "Shortcode:"
+msgstr "Código corto:"
+
+msgid "Add"
+msgstr "Añade"
+
+msgid "to any page or post."
+msgstr "a cualquier página o entrada."
+
+msgid "PHP Template:"
+msgstr "Plantilla PHP:"
+
+msgid "Use"
+msgstr "Usa"
+
+msgid "in theme files."
+msgstr "en archivos de tema."
+
+msgid "Dismiss this notice."
+msgstr "Descartar este aviso."
+
+msgid "Sign up with Shore"
+msgstr "Regístrate en Shore"
+
+msgid "Don't have a Shore account yet? Create your free booking system in just a few minutes!"
+msgstr "¿Aún no tienes una cuenta de Shore? ¡Crea tu sistema de reservas gratuito en solo unos minutos!"
+
+msgid "Sign Up, It's Free! →"
+msgstr "Regístrate, ¡Es Gratis! →"
+
+msgid "Get Your Token"
+msgstr "Obtén Tu Token"
+
+msgid "Find your merchant configuration token in your %s. It's usually your business name."
+msgstr "Encuentra tu token de configuración de comerciante en tu %s. Normalmente es el nombre de tu negocio."
+
+msgid "Shore dashboard"
+msgstr "panel de Shore"
+
+msgid "I Have My Token →"
+msgstr "Tengo Mi Token →"
+
+msgid "Configure Plugin"
+msgstr "Configurar Plugin"
+
+msgid "You're almost done! Configure your widget display settings and start accepting bookings."
+msgstr "¡Ya casi has terminado! Configura los ajustes de visualización de tu widget y comienza a aceptar reservas."
+
+msgid "Go to Settings →"
+msgstr "Ir a Configuración →"
+
+msgid "Enter Your Configuration Token"
+msgstr "Introduce Tu Token de Configuración"
+
+msgid "You can find this in your Shore dashboard"
+msgstr "Puedes encontrarlo en tu panel de Shore"
+
+msgid "Token"
+msgstr "Token"
+
+msgid "e.g., your-business-name"
+msgstr "ej., nombre-de-tu-negocio"
+
+msgid "Usually your business name or merchant ID"
+msgstr "Normalmente el nombre de tu negocio o ID de comerciante"
+
+msgid "Please enter a configuration token"
+msgstr "Por favor introduce un token de configuración"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Save Token"
+msgstr "Guardar Token"
+
+msgid "Saving..."
+msgstr "Guardando..."
+
+msgid "Settings saved successfully!"
+msgstr "¡Configuración guardada correctamente!"
+
+msgid "Failed to save token. Please try again."
+msgstr "Error al guardar el token. Por favor, inténtalo de nuevo."
+
+msgid "An error occurred. Please try again."
+msgstr "Ocurrió un error. Por favor, inténtalo de nuevo."
+
+msgid "Shore Booking Widget: Please configure your token in Settings."
+msgstr "Widget de Reservas Shore: Por favor configura tu token en Configuración."
+
+msgid "Teal"
+msgstr "Verde Azulado"
+
+msgid "Blue"
+msgstr "Azul"
+
+msgid "Green"
+msgstr "Verde"
+
+msgid "Orange"
+msgstr "Naranja"
+
+msgid "Red"
+msgstr "Rojo"
+
+msgid "Purple"
+msgstr "Morado"
+
+msgid "Pink"
+msgstr "Rosa"
+
+msgid "Yellow"
+msgstr "Amarillo"
+
+msgid "Lime"
+msgstr "Lima"
+
+msgid "Light Blue"
+msgstr "Azul Claro"
+
+msgid "Light Orange"
+msgstr "Naranja Claro"
+
+msgid "Light Gray"
+msgstr "Gris Claro"
+
+msgid "White"
+msgstr "Blanco"
+
+msgid "Black"
+msgstr "Negro"
+
+msgid "Gray"
+msgstr "Gris"

@@ -1,0 +1,256 @@
+# French translation for Shore Booking Widget
+# Copyright (C) 2024 Shore GmbH
+# This file is distributed under the same license as the Shore Booking Widget package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shore Booking Widget 1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 00:00+0000\n"
+"PO-Revision-Date: 2024-11-21 00:00+0000\n"
+"Last-Translator: Shore GmbH\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Shore Booking Widget"
+msgstr "Widget de Réservation Shore"
+
+msgid "Shore Booking"
+msgstr "Réservation Shore"
+
+msgid "Shore Booking Settings"
+msgstr "Paramètres de Réservation Shore"
+
+msgid "The easiest way to add booking functionality to your WordPress site."
+msgstr "La façon la plus simple d'ajouter une fonctionnalité de réservation à votre site WordPress."
+
+msgid "Welcome to Shore Booking Widget!"
+msgstr "Bienvenue sur le Widget de Réservation Shore !"
+
+msgid "Configuration Token"
+msgstr "Jeton de Configuration"
+
+msgid "Enter your Shore configuration token."
+msgstr "Entrez votre jeton de configuration Shore."
+
+msgid "Configuration"
+msgstr "Configuration"
+
+msgid "Configure your booking widget to match your brand"
+msgstr "Configurez votre widget de réservation pour correspondre à votre marque"
+
+msgid "Widget Language"
+msgstr "Langue du Widget"
+
+msgid "Language"
+msgstr "Langue"
+
+msgid "Choose the language for the booking widget."
+msgstr "Choisissez la langue pour le widget de réservation."
+
+msgid "Auto-detect from page language"
+msgstr "Détection automatique depuis la langue de la page"
+
+msgid "English (en)"
+msgstr "Anglais (en)"
+
+msgid "German (de)"
+msgstr "Allemand (de)"
+
+msgid "French (fr)"
+msgstr "Français (fr)"
+
+msgid "Spanish (es)"
+msgstr "Espagnol (es)"
+
+msgid "Display Style"
+msgstr "Style d'Affichage"
+
+msgid "Embedded Booking Page"
+msgstr "Page de Réservation Intégrée"
+
+msgid "Standard Button"
+msgstr "Bouton Standard"
+
+msgid "Floating Button"
+msgstr "Bouton Flottant"
+
+msgid "Button Customization"
+msgstr "Personnalisation du Bouton"
+
+msgid "Button Text"
+msgstr "Texte du Bouton"
+
+msgid "Book Now"
+msgstr "Réserver Maintenant"
+
+msgid "Background Color"
+msgstr "Couleur de Fond"
+
+msgid "Text Color"
+msgstr "Couleur du Texte"
+
+msgid "Embedded Preview"
+msgstr "Aperçu Intégré"
+
+msgid "Floating Button Customization"
+msgstr "Personnalisation du Bouton Flottant"
+
+msgid "Button Position"
+msgstr "Position du Bouton"
+
+msgid "Left"
+msgstr "Gauche"
+
+msgid "Right"
+msgstr "Droite"
+
+msgid "Ready to save your changes?"
+msgstr "Prêt à enregistrer vos modifications ?"
+
+msgid "Your booking widget will update immediately"
+msgstr "Votre widget de réservation sera mis à jour immédiatement"
+
+msgid "Save Settings"
+msgstr "Enregistrer les Paramètres"
+
+msgid "How to Use"
+msgstr "Comment Utiliser"
+
+msgid "Shortcode:"
+msgstr "Code court :"
+
+msgid "Add"
+msgstr "Ajoutez"
+
+msgid "to any page or post."
+msgstr "à n'importe quelle page ou article."
+
+msgid "PHP Template:"
+msgstr "Modèle PHP :"
+
+msgid "Use"
+msgstr "Utilisez"
+
+msgid "in theme files."
+msgstr "dans les fichiers de thème."
+
+msgid "Dismiss this notice."
+msgstr "Ignorer cet avis."
+
+msgid "Sign up with Shore"
+msgstr "Inscrivez-vous avec Shore"
+
+msgid "Don't have a Shore account yet? Create your free booking system in just a few minutes!"
+msgstr "Vous n'avez pas encore de compte Shore ? Créez votre système de réservation gratuit en quelques minutes !"
+
+msgid "Sign Up, It's Free! →"
+msgstr "Inscrivez-vous, C'est Gratuit ! →"
+
+msgid "Get Your Token"
+msgstr "Obtenez Votre Jeton"
+
+msgid "Find your merchant configuration token in your %s. It's usually your business name."
+msgstr "Trouvez votre jeton de configuration marchand dans votre %s. C'est généralement le nom de votre entreprise."
+
+msgid "Shore dashboard"
+msgstr "tableau de bord Shore"
+
+msgid "I Have My Token →"
+msgstr "J'ai Mon Jeton →"
+
+msgid "Configure Plugin"
+msgstr "Configurer le Plugin"
+
+msgid "You're almost done! Configure your widget display settings and start accepting bookings."
+msgstr "Vous avez presque terminé ! Configurez les paramètres d'affichage de votre widget et commencez à accepter des réservations."
+
+msgid "Go to Settings →"
+msgstr "Aller aux Paramètres →"
+
+msgid "Enter Your Configuration Token"
+msgstr "Entrez Votre Jeton de Configuration"
+
+msgid "You can find this in your Shore dashboard"
+msgstr "Vous pouvez trouver ceci dans votre tableau de bord Shore"
+
+msgid "Token"
+msgstr "Jeton"
+
+msgid "e.g., your-business-name"
+msgstr "ex., nom-de-votre-entreprise"
+
+msgid "Usually your business name or merchant ID"
+msgstr "Généralement le nom de votre entreprise ou ID marchand"
+
+msgid "Please enter a configuration token"
+msgstr "Veuillez entrer un jeton de configuration"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Save Token"
+msgstr "Enregistrer le Jeton"
+
+msgid "Saving..."
+msgstr "Enregistrement..."
+
+msgid "Settings saved successfully!"
+msgstr "Paramètres enregistrés avec succès !"
+
+msgid "Failed to save token. Please try again."
+msgstr "Échec de l'enregistrement du jeton. Veuillez réessayer."
+
+msgid "An error occurred. Please try again."
+msgstr "Une erreur s'est produite. Veuillez réessayer."
+
+msgid "Shore Booking Widget: Please configure your token in Settings."
+msgstr "Widget de Réservation Shore : Veuillez configurer votre jeton dans les Paramètres."
+
+msgid "Teal"
+msgstr "Bleu Sarcelle"
+
+msgid "Blue"
+msgstr "Bleu"
+
+msgid "Green"
+msgstr "Vert"
+
+msgid "Orange"
+msgstr "Orange"
+
+msgid "Red"
+msgstr "Rouge"
+
+msgid "Purple"
+msgstr "Violet"
+
+msgid "Pink"
+msgstr "Rose"
+
+msgid "Yellow"
+msgstr "Jaune"
+
+msgid "Lime"
+msgstr "Citron Vert"
+
+msgid "Light Blue"
+msgstr "Bleu Clair"
+
+msgid "Light Orange"
+msgstr "Orange Clair"
+
+msgid "Light Gray"
+msgstr "Gris Clair"
+
+msgid "White"
+msgstr "Blanc"
+
+msgid "Black"
+msgstr "Noir"
+
+msgid "Gray"
+msgstr "Gris"

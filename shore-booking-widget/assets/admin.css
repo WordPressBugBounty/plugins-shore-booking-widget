@@ -1,0 +1,460 @@
+/**
+ * Shore Booking Widget - Admin Settings Styles
+ */
+
+.shbw-wrap {
+    max-width: 1200px;
+    margin: 20px auto 40px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.shbw-header {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-left: 4px solid #00D0BE;
+}
+
+.shbw-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.shbw-header h1 {
+    margin: 0 0 5px 0;
+    font-size: 28px;
+    color: #000;
+    font-weight: 600;
+}
+
+.shbw-header p {
+    margin: 0;
+    color: #666;
+    font-size: 15px;
+}
+
+.shbw-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.shbw-card-header {
+    padding: 25px 30px;
+    border-bottom: 1px solid #f0f0f0;
+    background: #fafafa;
+}
+
+.shbw-card-header h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.step-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: #00D0BE;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.shbw-card-body {
+    padding: 30px;
+}
+
+.shbw-field {
+    margin-bottom: 25px;
+}
+
+.shbw-field:last-child {
+    margin-bottom: 0;
+}
+
+.shbw-field label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+.shbw-field .description,
+.shbw-field p {
+    margin: 8px 0 0 0;
+    color: #666;
+    font-size: 13px;
+}
+
+.shbw-field input[type="text"],
+.shbw-field select {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.2s;
+}
+
+.shbw-field input[type="text"]:focus,
+.shbw-field select:focus {
+    outline: none;
+    border-color: #00D0BE;
+    box-shadow: 0 0 0 3px rgba(0,208,190,0.1);
+}
+
+.shbw-color-section {
+    margin-bottom: 25px;
+}
+
+.shbw-color-section h4 {
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.shbw-color-palette {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.shbw-color-option {
+    position: relative;
+}
+
+.shbw-color-option input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+
+.shbw-color-option label {
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.shbw-color-option input[type="radio"]:checked + label {
+    border-color: #1a1a1a;
+    transform: scale(1.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.shbw-color-option input[type="radio"]:checked + label::after {
+    content: "✓";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.shbw-color-option label:hover {
+    transform: scale(1.05);
+}
+
+.shbw-position-options {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.shbw-position-options label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    background: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.shbw-position-options input[type="radio"]:checked + label {
+    border-color: #00D0BE;
+    background: rgba(0,208,190,0.05);
+    color: #00D0BE;
+}
+
+.shbw-preview {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.shbw-preview button {
+    padding: 16px 32px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.shbw-preview button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+}
+
+.shbw-floating-preview {
+    position: relative;
+    height: 80px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.shbw-floating-preview button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 13px 18px;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+}
+
+.shbw-floating-preview button.position-left {
+    left: 20px;
+}
+
+.shbw-floating-preview button.position-right {
+    right: 20px;
+}
+
+.shbw-embedded-preview {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.shbw-embedded-mock {
+    background: white;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shbw-embedded-header {
+    background: linear-gradient(135deg, #00D0BE 0%, #00B8A9 100%);
+    padding: 16px 24px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+.shbw-embedded-content {
+    flex: 1;
+    padding: 24px;
+    background: #fafbfc;
+}
+
+.shbw-service-item {
+    padding: 16px 20px;
+    margin: 12px 0;
+    background: white;
+    border: 1px solid #e1e5e9;
+    border-radius: 8px;
+    color: #495057;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.shbw-service-item:hover {
+    border-color: #00D0BE;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0,208,190,0.1);
+}
+
+.shbw-embedded-footer {
+    background: #343a40;
+    color: #adb5bd;
+    text-align: center;
+    padding: 12px;
+    font-size: 12px;
+}
+
+.shbw-save-card .shbw-card-body {
+    padding: 20px 30px;
+}
+
+.shbw-save-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.shbw-save-section .button-primary {
+    padding: 12px 30px;
+    font-size: 16px;
+    height: auto;
+    background-color: #00D0BE;
+    border-color: #00D0BE;
+    box-shadow: 0 2px 4px rgba(0, 208, 190, 0.2);
+    transition: all 0.3s ease;
+}
+
+.shbw-save-section .button-primary:hover {
+    background-color: #00B8A8;
+    border-color: #00B8A8;
+    box-shadow: 0 4px 8px rgba(0, 208, 190, 0.3);
+    transform: translateY(-1px);
+}
+
+.shbw-usage-card {
+    background: linear-gradient(135deg, #00D0BE 0%, #00bfad 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.shbw-usage-card h3 {
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    color: white;
+}
+
+.shbw-usage-card code {
+    background: rgba(255,255,255,0.2);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-family: "Monaco", "Courier New", monospace;
+    font-size: 14px;
+}
+
+.shbw-usage-card p {
+    margin: 10px 0;
+    line-height: 1.6;
+    opacity: 0.95;
+}
+
+.shbw-onboarding-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.shbw-onboarding-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+}
+
+.shbw-onboarding-step-number {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    background: #00D0BE;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.shbw-onboarding-step h3 {
+    margin: 0 0 8px 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.shbw-onboarding-step p {
+    margin: 0 0 12px 0;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.shbw-onboarding-step p:last-child {
+    margin-bottom: 0;
+}
+
+.shbw-onboarding-btn.button-primary {
+    background-color: #00D0BE;
+    border-color: #00D0BE;
+}
+
+.shbw-onboarding-btn.button-primary:hover {
+    background-color: #00B8A8;
+    border-color: #00B8A8;
+}
+
+@media (max-width: 768px) {
+    .shbw-wrap {
+        margin: 20px;
+    }
+    
+    .shbw-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .shbw-card-body {
+        padding: 20px;
+    }
+    
+    .shbw-color-palette {
+        gap: 10px;
+    }
+    
+    .shbw-color-option label {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .shbw-save-section {
+        flex-direction: column;
+        text-align: center;
+    }
+}

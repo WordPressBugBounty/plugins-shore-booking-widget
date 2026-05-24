@@ -1,0 +1,324 @@
+# English translations for Shore Booking Widget.
+# Copyright (C) 2025 Shore GmbH
+# This file is distributed under the same license as the Shore Booking Widget package.
+# Translator: Shore GmbH <support@shore.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Shore Booking Widget 1.0.0\n"
+"Report-Msgid-Bugs-To: https://shore.com/support/\n"
+"POT-Creation-Date: 2025-11-12 10:00+0000\n"
+"PO-Revision-Date: 2025-11-12 10:00+0000\n"
+"Last-Translator: Shore GmbH <support@shore.com>\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/settings.php:225
+msgid "Configuration Token"
+msgstr "Configuration Token"
+
+#: includes/settings.php:229
+msgid "Your Shore Token"
+msgstr "Your Shore Token"
+
+#: includes/settings.php:235
+msgid "Enter your Shore configuration token (e.g., \"test-shore-booking\" or \"your-business-name\")."
+msgstr "Enter your Shore configuration token (e.g., \"test-shore-booking\" or \"your-business-name\")."
+
+#: includes/settings.php:255
+msgid "Configuration Token Required"
+msgstr "Configuration Token Required"
+
+#: includes/settings.php:257
+msgid "Please enter your Shore configuration token above to unlock all widget settings. Once you add your token, additional configuration options will appear below."
+msgstr "Please enter your Shore configuration token above to unlock all widget settings. Once you add your token, additional configuration options will appear below."
+
+#: includes/settings.php:268
+msgid "Display Type"
+msgstr "Display Type"
+
+#: includes/settings.php:271
+msgid "Choose Display Mode"
+msgstr "Choose Display Mode"
+
+#: includes/settings.php:276
+msgid "Choose how you want to display the booking widget."
+msgstr "Choose how you want to display the booking widget."
+
+#: includes/helpers.php:15
+msgid "Embedded Booking Page"
+msgstr "Embedded Booking Page"
+
+#: includes/helpers.php:16
+msgid "Standard Button"
+msgstr "Standard Button"
+
+#: includes/helpers.php:17
+msgid "Floating Button"
+msgstr "Floating Button"
+
+#: includes/settings.php:285
+msgid "Standard Button Settings"
+msgstr "Standard Button Settings"
+
+#: includes/settings.php:289
+msgid "Button Text"
+msgstr "Button Text"
+
+#: includes/settings.php:295
+msgid "Customize the text displayed on your booking button"
+msgstr "Customize the text displayed on your booking button"
+
+#: includes/settings.php:298
+#: includes/settings.php:322
+msgid "Choose a Color"
+msgstr "Choose a Color"
+
+#: includes/settings.php:300
+#: includes/settings.php:324
+msgid "Choose Text Color"
+msgstr "Choose Text Color"
+
+#: includes/settings.php:307
+msgid "Floating Button Settings"
+msgstr "Floating Button Settings"
+
+#: includes/settings.php:319
+msgid "Choose Button Position"
+msgstr "Choose Button Position"
+
+#: includes/settings.php:319
+msgid "Choose where the floating button appears on your website"
+msgstr "Choose where the floating button appears on your website"
+
+#: includes/settings.php:319
+msgid "← Left"
+msgstr "← Left"
+
+#: includes/settings.php:319
+msgid "Right →"
+msgstr "Right →"
+
+#: includes/settings.php:331
+#: includes/settings.php:341
+msgid "Preview"
+msgstr "Preview"
+
+#: includes/settings.php:351
+msgid "Embedded Preview"
+msgstr "Embedded Preview"
+
+#: includes/settings.php:366
+msgid "Save Settings"
+msgstr "Save Settings"
+
+#: includes/settings.php:374
+msgid "How to Use"
+msgstr "How to Use"
+
+#: includes/settings.php:375
+msgid "Shortcode:"
+msgstr "Shortcode:"
+
+#: includes/settings.php:375
+msgid "Add"
+msgstr "Add"
+
+#: includes/settings.php:375
+msgid "to any page or post."
+msgstr "to any page or post."
+
+#: includes/settings.php:376
+msgid "PHP Template:"
+msgstr "PHP Template:"
+
+#: includes/settings.php:376
+msgid "Use"
+msgstr "Use"
+
+#: includes/settings.php:376
+msgid "in theme files."
+msgstr "in theme files."
+
+#: includes/helpers.php:28
+#: includes/helpers.php:48
+msgid "Black"
+msgstr "Black"
+
+#: includes/helpers.php:29
+#: includes/helpers.php:49
+msgid "Gray"
+msgstr "Gray"
+
+#: includes/helpers.php:30
+#: includes/helpers.php:50
+msgid "Light Gray"
+msgstr "Light Gray"
+
+#: includes/helpers.php:31
+msgid "Pink"
+msgstr "Pink"
+
+#: includes/helpers.php:32
+msgid "Red"
+msgstr "Red"
+
+#: includes/helpers.php:33
+msgid "Orange"
+msgstr "Orange"
+
+#: includes/helpers.php:34
+msgid "Light Orange"
+msgstr "Light Orange"
+
+#: includes/helpers.php:35
+msgid "Yellow"
+msgstr "Yellow"
+
+#: includes/helpers.php:36
+msgid "Purple"
+msgstr "Purple"
+
+#: includes/helpers.php:37
+msgid "Blue"
+msgstr "Blue"
+
+#: includes/helpers.php:38
+msgid "Light Blue"
+msgstr "Light Blue"
+
+#: includes/helpers.php:39
+msgid "Green"
+msgstr "Green"
+
+#: includes/helpers.php:40
+msgid "Lime"
+msgstr "Lime"
+
+#: includes/helpers.php:41
+msgid "Teal"
+msgstr "Teal"
+
+#: includes/helpers.php:51
+msgid "White"
+msgstr "White"
+
+#: includes/helpers.php:75
+msgid "Book Now"
+msgstr "Book Now"
+
+#: includes/onboarding.php:28
+msgid "Dismiss this notice."
+msgstr "Dismiss this notice."
+
+#: includes/onboarding.php:39
+msgid "Welcome to Shore Booking Widget!"
+msgstr "Welcome to Shore Booking Widget!"
+
+#: includes/onboarding.php:40
+msgid "The easiest way to add booking functionality to your WordPress site."
+msgstr "The easiest way to add booking functionality to your WordPress site."
+
+#: includes/onboarding.php:51
+msgid "Sign up with Shore"
+msgstr "Sign up with Shore"
+
+#: includes/onboarding.php:54
+msgid "Don't have a Shore account yet? Create your free booking system in just a few minutes!"
+msgstr "Don't have a Shore account yet? Create your free booking system in just a few minutes!"
+
+#: includes/onboarding.php:60
+msgid "Sign Up, It's Free! →"
+msgstr "Sign Up, It's Free! →"
+
+#: includes/onboarding.php:69
+msgid "Get Your Token"
+msgstr "Get Your Token"
+
+#: includes/onboarding.php:72
+msgid "Find your merchant configuration token in your Shore dashboard. It's usually your business name."
+msgstr "Find your merchant configuration token in your Shore dashboard. It's usually your business name."
+
+#: includes/onboarding.php:77
+msgid "I Have My Token →"
+msgstr "I Have My Token →"
+
+#: includes/onboarding.php:91
+msgid "Configure Plugin"
+msgstr "Configure Plugin"
+
+#: includes/onboarding.php:94
+msgid "You're almost done! Configure your widget display settings and start accepting bookings."
+msgstr "You're almost done! Configure your widget display settings and start accepting bookings."
+
+#: includes/onboarding.php:99
+msgid "Go to Settings →"
+msgstr "Go to Settings →"
+
+#: includes/onboarding.php:116
+msgid "Enter Your Configuration Token"
+msgstr "Enter Your Configuration Token"
+
+#: includes/onboarding.php:117
+msgid "You can find this in your Shore dashboard"
+msgstr "You can find this in your Shore dashboard"
+
+#: includes/onboarding.php:122
+msgid "Token"
+msgstr "Token"
+
+#: includes/onboarding.php:126
+msgid "e.g., your-business-name"
+msgstr "e.g., your-business-name"
+
+#: includes/onboarding.php:129
+msgid "Usually your business name or merchant ID"
+msgstr "Usually your business name or merchant ID"
+
+#: includes/onboarding.php:137
+msgid "Cancel"
+msgstr "Cancel"
+
+#: includes/onboarding.php:142
+msgid "Save Token"
+msgstr "Save Token"
+
+#: includes/settings.php:398
+msgid "Configure your booking widget to match your brand and workflow"
+msgstr "Configure your booking widget to match your brand and workflow"
+
+#: includes/settings.php:239
+msgid "Language"
+msgstr "Language"
+
+#: includes/settings.php:245
+msgid "Choose the language for the booking widget. \"Auto-detect\" will use the page's language setting."
+msgstr "Choose the language for the booking widget. \"Auto-detect\" will use the page's language setting."
+
+#: includes/helpers.php:58
+msgid "Auto-detect from page language"
+msgstr "Auto-detect from page language"
+
+#: includes/helpers.php:59
+msgid "English (en)"
+msgstr "English (en)"
+
+#: includes/helpers.php:60
+msgid "German (de)"
+msgstr "German (de)"
+
+#: includes/helpers.php:61
+msgid "French (fr)"
+msgstr "French (fr)"
+
+#: includes/helpers.php:62
+msgid "Spanish (es)"
+msgstr "Spanish (es)"
+
+#: shore-booking-widget.php:42
+msgid "Integrate Shore's powerful booking system into your WordPress site. Choose from embedded booking page, standard button, or floating button display."
+msgstr "Integrate Shore's powerful booking system into your WordPress site. Choose from embedded booking page, standard button, or floating button display."
